@@ -1,0 +1,56 @@
+:root {
+    --dark: #23424a;
+    --light: #38cfd9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: var(--dark);
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero__text {
+    width: 65%;
+}
+
+.hero__tittle {
+    font-size: 3rem;
+}
+
+.hero__sub {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--light);
+    color: var(--dark);
+    /* font-size: 1.3125rem; */
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 2em;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    opacity: 0.7;
+}
